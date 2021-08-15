@@ -1,0 +1,14 @@
+body {
+  background-color: #0f0f0f;
+}
+#parent {
+  border: 1px solid white;
+  height: 500px;
+  width: 500px;
+}
+
+#main {
+  border: 1px solid white;
+  height: 300px;
+  width: 300px;
+}
