@@ -35,5 +35,6 @@ secondChild.addEventListener(
 );
 
 // When you click on the children button or the second children button,
-// first it fires it's event then it fires the ancestors' events
-// all the way up in a dom tree till the outermost DOM element, which is event bubbling
+// first it fires it's outermost element's event then it fires the ancestors' events
+// all the way up in a dom tree till the target element (children button or the second children button)
+// , which is called event capturing
